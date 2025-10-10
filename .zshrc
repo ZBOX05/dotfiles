@@ -34,7 +34,7 @@ ZSH_THEME=""
 
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
-# zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
@@ -86,14 +86,14 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting tmux aliases z)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
@@ -113,45 +113,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting tmux aliases z)
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# --- WSL 代理配置开始 ---
-
-# 自动获取 Windows 主机的 IP 地址
-host_ip=$(cat /etc/resolv.conf | grep "nameserver" | cut -f 2 -d " ")
-
-# 设置代理函数
-# proxy() {
-    # 替换成您 Clash 在 Windows 上的真实 HTTP 代理端口
-#     local port="7899" 
-#
-#     # 为大多数命令行工具设置代理（如 curl, wget, git）
-#     export http_proxy="http://${host_ip}:${port}"
-#     export https_proxy="http://${host_ip}:${port}"
-#     export ALL_PROXY="http://${host_ip}:${port}"
-#
-#     # 单独为 apt 设置代理
-#     echo -e "Acquire::http::Proxy \"http://$host_ip:$port\";" | sudo tee /etc/apt/apt.conf.d/proxy.conf > /dev/null
-#     echo -e "Acquire::https::Proxy \"http://$host_ip:$port\";" | sudo tee -a /etc/apt/apt.conf.d/proxy.conf > /dev/null
-#
-#     echo "终端代理已开启，APT 代理也已配置。"
-# }
-#
-# # 取消代理函数
-# unproxy() {
-#     unset http_proxy
-#     unset https_proxy
-#     unset ALL_PROXY
-#
-#     # 删除 apt 的代理配置
-#     # 检查文件是否存在，避免在文件不存在时报错
-#     if [ -f /etc/apt/apt.conf.d/proxy.conf ]; then
-#         sudo rm /etc/apt/apt.conf.d/proxy.conf
-#     fi
-#
-#     echo "终端代理已关闭，APT 代理也已移除。"
-# }
-#
-# # --- WSL 代理配置结束 ---
-#
 # # --- 从 .bashrc 迁移的个人配置 ---
 
 # 项目环境变量
@@ -163,9 +124,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 # 注意：NVM的zsh补全通常由Oh My Zsh的nvm插件自动处理，但保留这行也无害
 # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
-
-# 语言环境
-export LANG=en_US.UTF-8
 
 # Cargo (Rust)
 . "$HOME/.cargo/env"
@@ -182,3 +140,8 @@ eval "$(starship init zsh)"
 cman() {:
     LANG=zh_CN.UTF-8 man "$@"
 }
+
+eval "$(zoxide init zsh)"
+# Set up fzf key bindings and fuzzy completion
+# source <(fzf --zsh)
+alias yy='yazi'

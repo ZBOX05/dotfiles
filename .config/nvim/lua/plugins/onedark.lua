@@ -1,6 +1,7 @@
 return {
   "navarasu/onedark.nvim",
   priority = 1000, -- 确保优先加载
+  lazy = true,
   opts = {
     -- 主题风格: 'dark', 'darker', 'cool', 'deep', 'warm', 'warmer', 'light'
     style = "warm",
