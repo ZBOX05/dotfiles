@@ -34,7 +34,7 @@ setup="$(mktemp)" && curl -fsSL https://raw.githubusercontent.com/ZBOX05/dotfile
 
 Windows：Terminal、GlazeWM、YASB、PowerShell、Neovim、Yazi、Starship、Eza、Fastfetch、VS Code 设置/快捷键/扩展清单、AutoHotkey、AltSnap、WSL。
 
-Linux：保留原仓库的 Bash、Zsh、Neovim、tmux、Yazi、Starship、lazygit 配置，移除会话、备份和下载残留。两边存在差异的配置独立保留，`shared/` 预留给确实共用的配置。
+Linux：保留原仓库的 Bash、Zsh、Neovim、tmux、Yazi、Starship、lazygit 配置，移除会话、备份和下载残留。两边存在差异的配置独立保留，`shared/vial/` 保存可在两边导入的键盘布局。
 
 不收录登录数据、聊天记录、浏览历史、终端输出、用户词频、私钥、API 令牌、缓存和应用数据库。未整目录复制浏览器、聊天/AI 客户端、代理客户端、SSH、输入法用户数据。
 
@@ -55,6 +55,6 @@ Linux：保留原仓库的 Bash、Zsh、Neovim、tmux、Yazi、Starship、lazygi
 
 ## 隐私检查
 
-2026-09-20 检查了既有 5 个提交可达的文本对象及 tmux 压缩快照：未匹配到明确凭据，但旧历史存在终端输出、用户名/主机名、项目路径和提交邮箱。当前版本移除不等于清除历史；此次没有强制推送或历史重写。部分 ripgrep 临时下载包损坏，无法完整展开，已从当前版本移除。
+2026-09-20 检查了既有 5 个提交可达的文本对象及 tmux 压缩快照：未匹配到明确凭据，但清理前历史曾存在终端输出、用户名/主机名、项目路径和提交邮箱。已重写仓库历史，移除终端会话、下载残留，将个人路径泛化并将提交邮箱替换为 GitHub noreply 地址。旧克隆请重新克隆，勿合并回清理前历史。GitHub 的旧 SHA 缓存、他人克隆或 fork 不会因此自动消失。部分 ripgrep 临时下载包损坏，无法完整展开，已从当前版本移除。
 
 Windows 导出副本已移除 PowerShell 明文令牌、VS Code 个人云项目标识和 Terminal 的固定用户路径；Git 全局身份配置未上传。原机配置未修改。扫描与人工复核不保证识别所有形式的敏感信息。
