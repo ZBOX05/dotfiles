@@ -1,0 +1,85 @@
+{
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        //【推荐】配置 Ruff 为 Python 的 Formatter
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.rulers": [
+            88 // Ruff Formatter 默认长度
+        ],
+        //【可选】保存时自动格式化 Python 代码
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "explicit"
+        },
+    },
+    "debug.onTaskErrors": "showErrors",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "digital-ide.welcome.show": false,
+    "digital-ide.prj.vivado.install.path": "E:\\Application\\Xilinx\\Vivado\\2024.2\\bin",
+    "geminicodeassist.languages": [
+        "verilog",
+        "c"
+    ],
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "chat.agent.enabled": false,
+    "editor.fontFamily": "Iosevka Nerd Font Mono, 'Courier New', monospace",
+    "workbench.startupEditor": "none",
+    "geminicodeassist.chat.defaultCodeBlockDisplay": "Collapsed",
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "geminicodeassist.codeGenerationPaneViewEnabled": true,
+    "files.autoSave": "onWindowChange",
+    "code-runner.runInTerminal": true,
+    "editor.formatOnSave": true,
+    "digital-ide.function.simulate.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "animations.CursorAnimation": true,
+    "vscode_custom_css.imports": [],
+    "animations.Install-Method": "Custom UI Style",
+    "custom-ui-style.external.imports": [],
+    "code-runner.preserveFocus": false,
+    "terminal.integrated.focusAfterRun": "terminal",
+    "diffEditor.codeLens": true,
+    "everforest.italicComments": false,
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Everforest Pro Dark",
+    "workbench.preferredLightColorTheme": "Everforest Pro Light",
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#80808080"
+        },
+        {
+            "column": 100,
+            "color": "#80808080"
+        },
+    ],
+    "python.terminal.focusAfterLaunch": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "makefile.configurations": [],
+    "C_Cpp.default.compilerPath": "",
+    "explorer.confirmDelete": false,
+    "python.terminal.executeInFileDir": true,
+    "makefile.configureOnOpen": true,
+    "editor.fontLigatures": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.lineNumbers": "relative",
+    "[verilog]": {
+        "editor.fontLigatures": false
+    },
+    "code-runner.fileDirectoryAsCwd": true,
+    "python.defaultInterpreterPath": "e:\\Dev\\msys64\\ucrt64\\bin\\python.exe",
+    "chat.mcp.gallery.enabled": true,
+    "workbench.iconTheme": "vs-minimal",
+    "everforestPro.theme.italicComments": false
+}

@@ -1,0 +1,34 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+    {
+        "key": "f5",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    // ============================================================
+    // 1. 补全列表专用：Ctrl + j (向下选)
+    // 优先级极高，只有在补全框出现时生效
+    // ============================================================
+    {
+        "key": "ctrl+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetVisible && editorTextFocus"
+    },
+    // ============================================================
+    // 2. 补全列表专用：Ctrl + k (向上选)
+    // ============================================================
+    {
+        "key": "ctrl+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetVisible && editorTextFocus"
+    },
+    {
+        "key": "shift+f4",
+        "command": "python.execInTerminal"
+    }
+]

@@ -1,0 +1,16 @@
+// ~/.config/fastfetch/config.jsonc
+{
+  "$schema": "https://json.schemastore.org/fastfetch.json",
+  "modules": [
+    // 动态信息
+    "uptime",
+    "packages",
+    "memory",
+    "disk", // 新增：硬盘占用
+    "battery", // 新增：电池信息
+    "local_ip"
+  ],
+  "logo": {
+    "type": "small" // 将 logo 类型设置为 small (小尺寸)
+  }
+}

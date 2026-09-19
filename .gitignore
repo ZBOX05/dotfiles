@@ -1,1 +1,13 @@
-/.config/tmux/plugins/
+*.log
+*.bak*
+*.old
+.env
+.env.*
+*.local.*
+**/local.ps1
+**/.TmuxNvimSession*
+**/resurrect/
+**/download-ripgrep*/
+**/__pycache__/
+*.key
+*.pem

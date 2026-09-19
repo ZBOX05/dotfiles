@@ -1,0 +1,13 @@
+[wsl2]
+networkingMode=mirrored
+memory=8GB
+dnsTunneling=true
+
+firewall=true
+
+[experimental]
+# 自动回收闲置内存，优化性能
+autoMemoryReclaim=gradual
+# 支持主机回环地址访问
+hostAddressLoopback=true
+autoProxy=true

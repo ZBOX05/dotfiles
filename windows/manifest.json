@@ -1,0 +1,310 @@
+[
+  {
+    "source": "windows/terminal/settings.json",
+    "target": "LOCALAPPDATA/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"
+  },
+  {
+    "source": "windows/glazewm/config.yaml",
+    "target": "HOME/.glzr/glazewm/config.yaml"
+  },
+  {
+    "source": "windows/yasb/config.yaml",
+    "target": "HOME/.config/yasb/config.yaml"
+  },
+  {
+    "source": "windows/yasb/styles.css",
+    "target": "HOME/.config/yasb/styles.css"
+  },
+  {
+    "source": "windows/eza/theme.yml",
+    "target": "HOME/.config/eza/theme.yml"
+  },
+  {
+    "source": "windows/starship.toml",
+    "target": "HOME/.config/starship.toml"
+  },
+  {
+    "source": "windows/nvim/.gitattributes",
+    "target": "LOCALAPPDATA/nvim/.gitattributes"
+  },
+  {
+    "source": "windows/nvim/.gitignore",
+    "target": "LOCALAPPDATA/nvim/.gitignore"
+  },
+  {
+    "source": "windows/nvim/.neoconf.json",
+    "target": "LOCALAPPDATA/nvim/.neoconf.json"
+  },
+  {
+    "source": "windows/nvim/init.lua",
+    "target": "LOCALAPPDATA/nvim/init.lua"
+  },
+  {
+    "source": "windows/nvim/lazy-lock.json",
+    "target": "LOCALAPPDATA/nvim/lazy-lock.json"
+  },
+  {
+    "source": "windows/nvim/lazyvim.json",
+    "target": "LOCALAPPDATA/nvim/lazyvim.json"
+  },
+  {
+    "source": "windows/nvim/LICENSE",
+    "target": "LOCALAPPDATA/nvim/LICENSE"
+  },
+  {
+    "source": "windows/nvim/README.md",
+    "target": "LOCALAPPDATA/nvim/README.md"
+  },
+  {
+    "source": "windows/nvim/stylua.toml",
+    "target": "LOCALAPPDATA/nvim/stylua.toml"
+  },
+  {
+    "source": "windows/nvim/lua/config/autocmds.lua",
+    "target": "LOCALAPPDATA/nvim/lua/config/autocmds.lua"
+  },
+  {
+    "source": "windows/nvim/lua/config/keymaps.lua",
+    "target": "LOCALAPPDATA/nvim/lua/config/keymaps.lua"
+  },
+  {
+    "source": "windows/nvim/lua/config/lazy.lua",
+    "target": "LOCALAPPDATA/nvim/lua/config/lazy.lua"
+  },
+  {
+    "source": "windows/nvim/lua/config/options.lua",
+    "target": "LOCALAPPDATA/nvim/lua/config/options.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/auto-dark-mode.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/auto-dark-mode.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/blink.cmp.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/blink.cmp.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/colorscheme.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/colorscheme.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/disabled.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/disabled.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/everforest.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/everforest.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/example.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/example.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/gemini-cli.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/gemini-cli.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/gruvbox.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/gruvbox.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/im-select.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/im-select.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/multicursor.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/multicursor.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/obsession.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/obsession.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/onedark.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/onedark.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/smear-cursor.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/smear-cursor.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/snacks.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/snacks.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/tmux-session-fix.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/tmux-session-fix.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/vim-visual-multi.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/vim-visual-multi.lua"
+  },
+  {
+    "source": "windows/nvim/lua/plugins/yazi.lua",
+    "target": "LOCALAPPDATA/nvim/lua/plugins/yazi.lua"
+  },
+  {
+    "source": "windows/yazi/init.lua",
+    "target": "APPDATA/yazi/config/init.lua"
+  },
+  {
+    "source": "windows/yazi/keymap.toml",
+    "target": "APPDATA/yazi/config/keymap.toml"
+  },
+  {
+    "source": "windows/yazi/package.toml",
+    "target": "APPDATA/yazi/config/package.toml"
+  },
+  {
+    "source": "windows/yazi/theme.toml",
+    "target": "APPDATA/yazi/config/theme.toml"
+  },
+  {
+    "source": "windows/yazi/yazi.toml",
+    "target": "APPDATA/yazi/config/yazi.toml"
+  },
+  {
+    "source": "windows/yazi/plugins/full-border.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/full-border.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/full-border.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/full-border.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/full-border.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/full-border.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/plugins/git.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/git.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/git.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/git.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/git.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/git.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/plugins/git.yazi/types.lua",
+    "target": "APPDATA/yazi/config/plugins/git.yazi/types.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/relative-motions.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/relative-motions.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/relative-motions.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/relative-motions.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/relative-motions.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/relative-motions.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-enter.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/smart-enter.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-enter.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/smart-enter.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-enter.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/smart-enter.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-paste.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/smart-paste.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-paste.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/smart-paste.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/smart-paste.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/smart-paste.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/plugins/starship.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/plugins/starship.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/plugins/starship.yazi/main.lua",
+    "target": "APPDATA/yazi/config/plugins/starship.yazi/main.lua"
+  },
+  {
+    "source": "windows/yazi/plugins/starship.yazi/README.md",
+    "target": "APPDATA/yazi/config/plugins/starship.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/flavors/catppuccin-macchiato.yazi/flavor.toml",
+    "target": "APPDATA/yazi/config/flavors/catppuccin-macchiato.yazi/flavor.toml"
+  },
+  {
+    "source": "windows/yazi/flavors/catppuccin-macchiato.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/flavors/catppuccin-macchiato.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/flavors/catppuccin-macchiato.yazi/LICENSE-tmtheme",
+    "target": "APPDATA/yazi/config/flavors/catppuccin-macchiato.yazi/LICENSE-tmtheme"
+  },
+  {
+    "source": "windows/yazi/flavors/catppuccin-macchiato.yazi/README.md",
+    "target": "APPDATA/yazi/config/flavors/catppuccin-macchiato.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/flavors/catppuccin-macchiato.yazi/tmtheme.xml",
+    "target": "APPDATA/yazi/config/flavors/catppuccin-macchiato.yazi/tmtheme.xml"
+  },
+  {
+    "source": "windows/yazi/flavors/everforest-medium.yazi/flavor.toml",
+    "target": "APPDATA/yazi/config/flavors/everforest-medium.yazi/flavor.toml"
+  },
+  {
+    "source": "windows/yazi/flavors/everforest-medium.yazi/LICENSE",
+    "target": "APPDATA/yazi/config/flavors/everforest-medium.yazi/LICENSE"
+  },
+  {
+    "source": "windows/yazi/flavors/everforest-medium.yazi/LICENSE-tmtheme",
+    "target": "APPDATA/yazi/config/flavors/everforest-medium.yazi/LICENSE-tmtheme"
+  },
+  {
+    "source": "windows/yazi/flavors/everforest-medium.yazi/README.md",
+    "target": "APPDATA/yazi/config/flavors/everforest-medium.yazi/README.md"
+  },
+  {
+    "source": "windows/yazi/flavors/everforest-medium.yazi/tmtheme.xml",
+    "target": "APPDATA/yazi/config/flavors/everforest-medium.yazi/tmtheme.xml"
+  },
+  {
+    "source": "windows/fastfetch/config.jsonc",
+    "target": "APPDATA/fastfetch/config.jsonc"
+  },
+  {
+    "source": "windows/vscode/settings.json",
+    "target": "APPDATA/Code/User/settings.json"
+  },
+  {
+    "source": "windows/vscode/keybindings.json",
+    "target": "APPDATA/Code/User/keybindings.json"
+  },
+  {
+    "source": "windows/powershell/Microsoft.PowerShell_profile.ps1",
+    "target": "DOCUMENTS/PowerShell/Microsoft.PowerShell_profile.ps1"
+  },
+  {
+    "source": "windows/powershell/powershell.config.json",
+    "target": "DOCUMENTS/PowerShell/powershell.config.json"
+  },
+  {
+    "source": "windows/wsl/.wslconfig",
+    "target": "HOME/.wslconfig"
+  },
+  {
+    "source": "windows/autohotkey/ZBOX_RB_XB.ahk",
+    "target": "HOME/.config/autohotkey/ZBOX_RB_XB.ahk"
+  }
+]
